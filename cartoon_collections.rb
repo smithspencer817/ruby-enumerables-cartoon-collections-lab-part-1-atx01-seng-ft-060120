@@ -8,9 +8,8 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-  i=1
   array.each_with_index do |obj, i|
-    puts "#{i}. #{obj}"
     i+=1
+    puts "#{i}. #{obj}"
   end
 end
